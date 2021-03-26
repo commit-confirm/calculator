@@ -7,6 +7,7 @@ trigger:
 - master
 
 pool:
+  name: Azure_VMs
   vmImage: ubuntu-latest
 
 steps:
